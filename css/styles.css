@@ -1,0 +1,525 @@
+/*General styling*/
+
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
+  width: fit-content;
+}
+a {
+  color: cadetblue;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  color: #1D2845;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  text-align: center;
+}
+
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #1D2845;
+text-align: center;
+text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 32px;
+}
+
+h4 {
+  color: #1D2845;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  
+}
+
+h6 {
+  color: #b18052;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 150%;
+}
+
+
+
+.centered-body-text {
+  padding-bottom: 20px;
+  margin: auto;
+  width: 70%;
+}
+
+
+
+/*Containers*/
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+
+
+.container-fluid-tabs {
+  padding-top: 20px;
+  background-color: #eceff4;
+  
+}
+
+.container-image-background {
+  padding-top: 20px;
+  background-color: #eceff4;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  
+}
+
+
+.container {
+  margin-bottom: 50px;
+  padding: none;
+}
+
+#villas {
+  padding-top: 10px!important;
+  padding-bottom: 5px;
+}
+
+#pt-md-5 {
+  padding-bottom: 5px;
+}
+
+
+/*Footer*/
+
+footer.py-3.my-4 {
+  background-color: #1D2845!important;
+  padding-bottom: 20px;
+}
+
+.footer-container{
+  background-color: #1D2845!important;
+  padding-bottom: 20px;
+}
+
+.text-muted {
+  --bs-secondary-color:#fff;
+}
+
+.footer-widget  .footer-widget>img {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  image-resolution: from-image;
+}
+
+.row-equal {
+  display: block;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  image-resolution: from-image;
+}
+
+.img-fluid {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  /*padding-bottom: 20px;*/ /*This adds padding to the bottom of the images above the footer */
+}
+
+
+/*Nav*/
+
+.navbar {
+  --bs-navbar-brand-font-size: 0.6em;
+  --bs-navbar-padding-x: 0.5rem;
+}
+
+
+.navbar-dark, .navbar[data-bs-theme=dark] {
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-icon-bg:
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(170, 130, 89, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  letter-spacing: .26em;
+  font-size: 0.6em!important;
+  align-content: center;
+  padding-left: 7px;
+
+}
+
+.dropdown-item {
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 0.6em;
+}
+
+.d-inline-block {
+  padding-right: 10px;
+}
+
+.nav-link {
+  padding-left: 15px;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  letter-spacing: .26em;
+  font-size: 0.6em;
+  --bs-nav-link-hover-color: #8f9bad;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-bg: #8f9bad;
+   --bs-dropdown-link-active-bg: #1D2845;
+   --bs-dropdown-link-hover-color: #fff
+}
+
+
+
+/*Header image*/
+
+.intro-copy {
+  font-family: 'Lato', sans-serif;
+  color: #8F9BAD;
+text-align: center;
+text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 16px;
+}
+
+
+/*Buttons*/
+
+/*.btn:hover {
+  btn-hover-bg: #1D2845;
+
+}*/
+
+.btn-primary {
+  --bs-btn-hover-bg: #1D2845;
+}
+
+
+.btn-primary {
+  background-color: #8F9BAD;
+  font-size: 12px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  color: #fff;
+}
+
+.btn-dark {
+  --bs-btn-bg: #8F9BAD;
+  --bs-btn-hover-bg: #1D2845; 
+  --bs-btn-border-color: none;
+}
+
+.btn {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 12px;
+  text-align: center;
+
+}
+scrollBtn {
+  height: 50px;
+  background: #aa8259;
+  border: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 12px;
+  cursor: pointer;
+
+  
+}
+
+
+
+
+
+/*Icons*/
+
+
+.fa-solid {
+  text-align: center;
+  padding-bottom: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.my-5 {
+  margin-top: 0.75rem!important;
+  margin-bottom: 1.5rem!important;
+}
+
+
+/*Cards*/
+
+.row {
+  text-align: center;
+  padding: 0px;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 0;
+}
+
+.no-border {
+  border: 0;
+
+}
+
+.rounded-start {
+  border-bottom-left-radius: 0!important;
+  border-top-left-radius: 0!important;
+}
+
+.card-img, .card-img-top {
+  border-bottom-left-radius: 0!important;
+  border-top-left-radius: 0!important;
+  border-top-right-radius: 0!important;
+  /* width: 100%; This and ones below is to style the new cards on Villa Amore
+  height: 100%;
+  object-fit: cover;*/
+  border-bottom-right-radius: 0px;
+}
+
+
+
+.villa-card-text {
+  text-align: left;
+  font-size: 12px;
+
+}
+
+
+h5.card-title {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+.card-title {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  color: #fff;
+  text-shadow: 1px 1px 7px #000000;
+  max-width: 80%;
+}
+
+.card-img-overlay {
+  display: flex;
+  align-self: center;
+  align-content: center;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+#carouselExampleSlidesOnly .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+
+/*Form*/
+
+.fw-bold /*Type in contact form button*/{
+  font-weight: 400!important;
+}
+
+.form-label {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 12px;  
+}
+
+.form-check .form-check-input {
+float: none;
+margin-right: 2px;
+margin-left: 0em;
+
+}
+
+.form-check-label{
+font-size: 12px;
+}
+
+.form-check-inline {
+  margin-bottom: 1rem;
+}
+
+.input-group-append {
+  cursor: pointer;
+}
+
+/*Why book with us carousel*/
+.card-text:last-child {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+/*Back to top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #b18052; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 14px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #1D2845; /* Add a dark-grey background on hover */
+}
+
+
+
+
+/*KAT EXTRA CSS*/
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+/*KAT This is already styled above (line 302) and is adding a border to all cards/*
+/*.card-img-top {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+}/*
+
+/*Villa Page Booking Form*/
+
+
+div.elem-group {
+  margin: 20px 0;
+}
+
+div.elem-group.inlined {
+  width: 49%;
+  display: inline-block;
+  float: left;
+
+}
+
+label {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 12px; 
+  padding-bottom: 10px;
+}
+
+input, select, textarea {
+  border-radius: 2px;
+  border: 1px solid #777;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Libre Baskerville', serif;
+  width: 100%;
+  padding: 10px;
+}
+
+div.elem-group.inlined input {
+  width: 95%;
+  display: inline-block;
+}
+
+textarea {
+  height: 250px;
+}
+
+hr {
+  border: 1px dotted #ccc;
+}
+
+button {
+  height: 50px;
+  background: #aa8259;
+  border: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .26em;
+  font-size: 12px;
+  /*font-size: 1.25em;
+  font-family: 'Libre Baskerville', serif;*/
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+}
+
+button:hover {
+background-color: #1D2845;
+
+}
+
+
+/*VICTORIA EXTRA CSS*/
